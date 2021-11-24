@@ -1,0 +1,72 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body .main {
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+body .main .buttons .btn {
+  width: 150px;
+  height: 50px;
+  margin-right: 63px;
+  border: none;
+  border-top: 1px solid #a8a4a4;
+  border-left: 1px solid #a8a4a4;
+  border-right: 1px solid #a8a4a4;
+  outline: none;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  color: #747474;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+body .main .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 800px;
+  height: 300px;
+  background-color: aliceblue;
+  border-top: 3px solid #43b1b4;
+  border-left: 1px solid #a8a4a4;
+  border-right: 1px solid #a8a4a4;
+  border-bottom: 1px solid #a8a4a4;
+}
+
+body .main .box .image {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 150px;
+  height: 150px;
+  background-size: contain;
+}
+
+body .main .box .image img {
+  width: 150px;
+  height: 150px;
+}
+
+body .main .box .content {
+  position: relative;
+  left: 50px;
+}
+
+body .main .box .content .info {
+  color: #747474;
+}
+
+body .main .box .content .heading {
+  color: #555555;
+}
+/*# sourceMappingURL=main.css.map */
