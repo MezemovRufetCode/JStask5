@@ -2,18 +2,23 @@ body{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    .main{
-        margin-top: 50px;
-        margin-left: 30px;
+    .active{
+        background-color:rgb(67, 177, 180) ;
+        color: white !important;
+    }
+    .container{
+        width: 900px;
+        height: 500px;
         .buttons{
-            .btn{
-            width: 150px;
+            padding: 0px;
+            .btnn{
             height: 50px;
-            margin-right: 63px;
-            border: none;
+            width: 150px;
+            margin-right: 95px;
             border-top: 1px solid rgb(168, 164, 164);
             border-left: 1px solid rgb(168, 164, 164);
             border-right:  1px solid rgb(168, 164, 164);
+            border: none;
             outline:none;
             border-top-left-radius: 15px;
             border-top-right-radius: 15px;
@@ -24,41 +29,39 @@ body{
             .box{
                 display: flex;
                 align-items: center;
-                width: 800px;
-                height: 300px;
+                height: 400px;
                 background-color: aliceblue;
                 border-top: 3px solid rgb(67, 177, 180);
                 border-left: 1px solid rgb(168, 164, 164);
                 border-right:  1px solid rgb(168, 164, 164);
                 border-bottom:  1px solid rgb(168, 164, 164);
-                
-                .image{
-                    box-sizing: border-box;
-                    padding-left: 30px;
-                    padding-right: 30px;
-                    width: 150px;
-                    height: 150px;
-                    // background-image: url(/assets/images/few.jpeg);
-                    background-size: contain;
-                    img{
+                .city{
+                    display: flex;
+                    .image{
+                        position: relative;
+                        left: 50px;
                         width: 150px;
                         height: 150px;
+                        background-size: contain;
+                        img{
+                            width: 200px;
+                            height: 200px;
+                        }
                     }
-                }
-                .content{
-                    .info{
-                        color: rgb(116, 116, 116);
+                    .content{
+                        position: relative;
+                        left: 170px;
+                        .info{
+                            color: rgb(116, 116, 116);
+                        }
+                        .heading{
+                            color: rgb(85, 85, 85);
+                        }
                     }
-                    .heading{
-                        color: rgb(85, 85, 85);
-                    }
-                    position: relative;
-                    left: 50px;
-                }
+                }               
+                
         }
-        
-    
-       
     }
+        
     
 }
